@@ -1,0 +1,18 @@
+// "module": "ESNext",
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "target": "ES6",
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "useUnknownInCatchVariables": false,
+    "lib": ["ES6"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/node_modules/*"]
+}
